@@ -6,7 +6,7 @@
         <General CursorSize="3" ExtraPrecision="1"/>
         <Coords Type="0" TypeString="Cartesian" Coords="0" ScaleXTheta="0" ScaleXThetaString="Linear" ScaleYRadius="0" ScaleYRadiusString="Linear" UnitsX="0" UnitsXString="Number" UnitsY="0" UnitsYString="Number" UnitsTheta="0" UnitsThetaString="Degrees (DDD.DDDDD)" UnitsRadius="0" UnitsRadiusString="Number" UnitsDate="3" UnitsDateString="YYYY/MM/DD" UnitsTime="2" UnitsTimeString="HH:MM:SS"/>
         <DigitizeCurve CursorInnerRadius="5" CursorLineWidth="2" CursorSize="1" CursorStandardCross="True"/>
-        <Export PointsSelectionFunctions="2" PointsSelectionFunctionsString="InterpolatePeriodic" PointsIntervalFunctions="0.1" PointsIntervalUnitsFunctions="0" PointsSelectionRelations="0" PointsSelectionRelationsString="Interpolate" PointsIntervalUnitsRelations="1" PointsIntervalRelations="10" LayoutFunctions="0" LayoutFunctionsString="AllPerLine" Delimiter="0" OverrideCsvTsv="False" DelimiterString="Commas" ExtrapolateOutsideEndpoints="False" Header="1" HeaderString="Simple" XLabel="x">
+        <Export PointsSelectionFunctions="2" PointsSelectionFunctionsString="InterpolatePeriodic" PointsIntervalFunctions="0.05" PointsIntervalUnitsFunctions="0" PointsSelectionRelations="0" PointsSelectionRelationsString="Interpolate" PointsIntervalUnitsRelations="1" PointsIntervalRelations="10" LayoutFunctions="0" LayoutFunctionsString="AllPerLine" Delimiter="0" OverrideCsvTsv="False" DelimiterString="Commas" ExtrapolateOutsideEndpoints="False" Header="1" HeaderString="Simple" XLabel="x">
             <CurveNamesNotExported/>
         </Export>
         <AxesChecker Mode="1" Seconds="3" LineColor="6"/>
@@ -21,72 +21,135 @@
                 <PointStyle Radius="10" LineWidth="1" Color="6" ColorString="Red" Shape="1" ShapeString="Cross"/>
             </CurveStyle>
             <CurvePoints>
-                <Point Identifier="Axes&#9;point&#9;1" Ordinal="1" IsAxisPoint="True" IsXOnly="False" Index="21">
+                <Point Identifier="Axes&#9;point&#9;1" Ordinal="1" IsAxisPoint="True" IsXOnly="False" Index="39">
                     <PositionScreen X="211" Y="58.75"/>
                     <PositionGraph X="-32" Y="3.6"/>
                 </Point>
-                <Point Identifier="Axes&#9;point&#9;3" Ordinal="2" IsAxisPoint="True" IsXOnly="False" Index="21">
+                <Point Identifier="Axes&#9;point&#9;3" Ordinal="2" IsAxisPoint="True" IsXOnly="False" Index="39">
                     <PositionScreen X="224.5" Y="1078.25"/>
                     <PositionGraph X="-32" Y="-2"/>
                 </Point>
-                <Point Identifier="Axes&#9;point&#9;5" Ordinal="3" IsAxisPoint="True" IsXOnly="False" Index="21">
+                <Point Identifier="Axes&#9;point&#9;5" Ordinal="3" IsAxisPoint="True" IsXOnly="False" Index="39">
                     <PositionScreen X="810.75" Y="1070.5"/>
                     <PositionGraph X="32" Y="-2"/>
                 </Point>
             </CurvePoints>
         </Curve>
         <CurvesGraphs>
-            <Curve CurveName="3">
-                <ColorFilter CurveName="3" Mode="2" ModeString="Intensity" IntensityLow="0" IntensityHigh="50" ForegroundLow="0" ForegroundHigh="10" HueLow="180" HueHigh="360" SaturationLow="50" SaturationHigh="100" ValueLow="0" ValueHigh="50"/>
-                <CurveStyle CurveName="3">
+            <Curve CurveName="2.9">
+                <ColorFilter CurveName="2.9" Mode="2" ModeString="Intensity" IntensityLow="0" IntensityHigh="50" ForegroundLow="0" ForegroundHigh="10" HueLow="180" HueHigh="360" SaturationLow="50" SaturationHigh="100" ValueLow="0" ValueHigh="50"/>
+                <CurveStyle CurveName="2.9">
                     <LineStyle Width="1" Color="1" ColorString="Blue" ConnectAs="0" ConnectAsString="FunctionSmooth"/>
                     <PointStyle Radius="10" LineWidth="1" Color="1" ColorString="Blue" Shape="1" ShapeString="Cross"/>
                 </CurveStyle>
                 <CurvePoints>
-                    <Point Identifier="3&#9;point&#9;6" Ordinal="0" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;6" Ordinal="0" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="384" Y="927.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;7" Ordinal="1" IsAxisPoint="False" IsXOnly="False" Index="21">
-                        <PositionScreen X="403.75" Y="893.75"/>
-                    </Point>
-                    <Point Identifier="3&#9;point&#9;8" Ordinal="2" IsAxisPoint="False" IsXOnly="False" Index="21">
-                        <PositionScreen X="422.5" Y="858.25"/>
-                    </Point>
-                    <Point Identifier="3&#9;point&#9;9" Ordinal="3" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;9" Ordinal="1" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="529.75" Y="644.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;10" Ordinal="4" IsAxisPoint="False" IsXOnly="False" Index="21">
-                        <PositionScreen X="548.75" Y="606"/>
-                    </Point>
-                    <Point Identifier="3&#9;point&#9;11" Ordinal="5" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;11" Ordinal="2" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="566" Y="574"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;12" Ordinal="6" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;12" Ordinal="3" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="585" Y="539.75"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;13" Ordinal="7" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;13" Ordinal="4" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="601" Y="515.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;14" Ordinal="8" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;14" Ordinal="5" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="621.25" Y="492.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;15" Ordinal="9" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;15" Ordinal="6" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="638.25" Y="483"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;16" Ordinal="10" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;16" Ordinal="7" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="658.5" Y="490.25"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;17" Ordinal="11" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;17" Ordinal="8" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="677" Y="493.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;18" Ordinal="12" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;18" Ordinal="9" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="695.75" Y="500.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;19" Ordinal="13" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;19" Ordinal="10" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="714" Y="511.5"/>
                     </Point>
-                    <Point Identifier="3&#9;point&#9;20" Ordinal="14" IsAxisPoint="False" IsXOnly="False" Index="21">
+                    <Point Identifier="2.9&#9;point&#9;20" Ordinal="11" IsAxisPoint="False" IsXOnly="False" Index="39">
                         <PositionScreen X="734.5" Y="509.25"/>
+                    </Point>
+                </CurvePoints>
+            </Curve>
+            <Curve CurveName="5.9">
+                <ColorFilter CurveName="5.9" Mode="2" ModeString="Intensity" IntensityLow="0" IntensityHigh="50" ForegroundLow="0" ForegroundHigh="10" HueLow="180" HueHigh="360" SaturationLow="50" SaturationHigh="100" ValueLow="0" ValueHigh="50"/>
+                <CurveStyle CurveName="5.9">
+                    <LineStyle Width="1" Color="6" ColorString="Red" ConnectAs="0" ConnectAsString="FunctionSmooth"/>
+                    <PointStyle Radius="3" LineWidth="1" Color="6" ColorString="Red" Shape="3" ShapeString="Square"/>
+                </CurveStyle>
+                <CurvePoints>
+                    <Point Identifier="5.9&#9;point&#9;21" Ordinal="0" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="328.5" Y="861"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;22" Ordinal="1" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="348.5" Y="870"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;23" Ordinal="2" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="360" Y="906"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;24" Ordinal="3" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="367" Y="960.5"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;25" Ordinal="4" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="404.5" Y="902"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;26" Ordinal="5" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="556" Y="586"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;27" Ordinal="6" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="602.5" Y="497"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;28" Ordinal="7" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="620.5" Y="474.5"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;29" Ordinal="8" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="647.5" Y="457"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;30" Ordinal="9" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="656.5" Y="472.5"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;31" Ordinal="10" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="678" Y="490.5"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;32" Ordinal="11" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="696" Y="500"/>
+                    </Point>
+                    <Point Identifier="5.9&#9;point&#9;33" Ordinal="12" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="716" Y="506.5"/>
+                    </Point>
+                </CurvePoints>
+            </Curve>
+            <Curve CurveName="8.9">
+                <ColorFilter CurveName="8.9" Mode="2" ModeString="Intensity" IntensityLow="0" IntensityHigh="50" ForegroundLow="0" ForegroundHigh="10" HueLow="180" HueHigh="360" SaturationLow="50" SaturationHigh="100" ValueLow="0" ValueHigh="50"/>
+                <CurveStyle CurveName="8.9">
+                    <LineStyle Width="1" Color="2" ColorString="Cyan" ConnectAs="0" ConnectAsString="FunctionSmooth"/>
+                    <PointStyle Radius="3" LineWidth="1" Color="2" ColorString="Cyan" Shape="2" ShapeString="Diamond"/>
+                </CurveStyle>
+                <CurvePoints>
+                    <Point Identifier="8.9&#9;point&#9;34" Ordinal="0" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="385.5" Y="933.5"/>
+                    </Point>
+                    <Point Identifier="8.9&#9;point&#9;35" Ordinal="1" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="583.5" Y="529"/>
+                    </Point>
+                    <Point Identifier="8.9&#9;point&#9;36" Ordinal="2" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="648.5" Y="439.5"/>
+                    </Point>
+                    <Point Identifier="8.9&#9;point&#9;37" Ordinal="3" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="677" Y="465.5"/>
+                    </Point>
+                    <Point Identifier="8.9&#9;point&#9;38" Ordinal="4" IsAxisPoint="False" IsXOnly="False" Index="39">
+                        <PositionScreen X="714.5" Y="500"/>
                     </Point>
                 </CurvePoints>
             </Curve>
